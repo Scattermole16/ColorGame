@@ -1,0 +1,68 @@
+#game {
+    margin-right:435px;
+    margin-left:435px;
+    background-color: rgba(19, 19, 19, 0.78);
+    color:white;
+    border-color: rgba(40, 40, 40, 0.4);
+    border-radius: 3px;
+    border-width:25px;
+}
+body{
+    background-image: url("color.jpg");
+}
+#Correct{
+    margin-left: 0;
+    margin-right: 0;
+    border-width: 5px;
+    float: right;
+    height: 120px;
+    width: 120px;
+    padding-bottom: 10px;
+    border-color: rgba(40, 40, 40, 0.4);
+    color: white;
+}
+#Blue {
+    color:blue;
+}
+#Cyan {
+    color:cyan;
+}
+#Gold {
+    color:Gold;
+}
+#Green {
+    color:green;
+}
+#Grey {
+    color:grey;
+}
+#Magenta {
+    color:magenta;
+}
+#Orange {
+    color:orange;
+}
+#Red {
+    color:red;
+}
+#White {
+    color:white;
+}
+#Yellow {
+    color:yellow;
+}
+.button {
+    background-color: rgba(19, 19, 19, 0);
+    border-color: rgba(19, 19, 19, 0);
+    color:white;
+    font-size: 16px;
+    border-style: solid;
+    font-family: 'Luminari';
+    padding: 1px;
+}
+.button:hover {
+    background-color:white;
+    color: rgba(19, 19, 19, 0.29);
+    border-color: rgba(19, 19, 19, 0.29);
+    transition-duration: .7s;
+}
